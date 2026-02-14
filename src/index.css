@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --toast-bg: #ffffff;
+  --toast-color: #374151;
+}
+
+.dark {
+  --toast-bg: #1f2937;
+  --toast-color: #f9fafb;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Quill editor dark mode styles */
+.dark .ql-snow {
+  border-color: #4b5563;
+}
+
+.dark .ql-snow .ql-toolbar {
+  border-color: #4b5563;
+  background-color: #374151;
+}
+
+.dark .ql-snow .ql-container {
+  border-color: #4b5563;
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.dark .ql-snow .ql-editor {
+  color: #f9fafb;
+}
+
+.dark .ql-snow .ql-picker-label {
+  color: #f9fafb;
+}
+
+.dark .ql-snow .ql-stroke {
+  stroke: #f9fafb;
+}
+
+.dark .ql-snow .ql-fill {
+  fill: #f9fafb;
+}
+
+.dark .ql-snow .ql-picker-options {
+  background-color: #374151;
+  border-color: #4b5563;
+}
+
+.dark .ql-snow .ql-picker-item:hover {
+  background-color: #4b5563;
+  color: #f9fafb;
+}
+
+/* Prose styles for dark mode */
+.dark .prose {
+  color: #f9fafb;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose h5,
+.dark .prose h6 {
+  color: #f9fafb;
+}
+
+.dark .prose strong {
+  color: #f9fafb;
+}
+
+.dark .prose blockquote {
+  border-left-color: #4b5563;
+  color: #d1d5db;
+}
+
+.dark .prose code {
+  color: #f9fafb;
+  background-color: #374151;
+}
+
+.dark .prose a {
+  color: #60a5fa;
+}
+
+.dark .prose a:hover {
+  color: #93c5fd;
+}
